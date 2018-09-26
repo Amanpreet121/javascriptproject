@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: darkslateblue;
+    text-align: center;
+}
+img{
+    width:100%;
+}
+.container{
+    width:100%;
+    max-width: 960px;
+    margin:0 auto;
+    text-align: center;
+}
+.header{
+    height:250px;
+    background-image: url("calculator.jpg");
+    background-size: cover;
+    opacity: 0.5%;
+    display:flex;
+    justify-content: center;
+    align-content:center;
+    margin-bottom: 40px;
+}
+
+
+#res{
+    background-color: brown;
+}
+p{
+    padding:30px;
+}
+.operation{
+    padding:20px;
+    background-color: rgb(173, 123, 29);
+    border-radius:4%;
+    margin:0 auto;
+    width:400px;
+}
